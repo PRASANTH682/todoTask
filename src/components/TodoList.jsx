@@ -53,7 +53,7 @@ const TodoList = () => {
 
   return (
     <main className='flex items-center justify-center'>
-        <div className="bg-blue-500 w-[80%] md:w-[55%] mt-10 p-2 md:p-5 rounded-md text-center shadow-md">
+        <div className="bg-blue-500 w-[95%] md:w-[55%] mt-10 p-2 md:p-5 rounded-md text-center shadow-md">
             <h1 className='text-3xl pb-1 md:text-4xl md:pb-3 font-bold border-b-2 mb-3'>TODO List</h1>
             <form className='flex gap-3 mb-3'>
                 <input type="text" id="task" value={task} placeholder='Enter your Task' className="border w-[100%] outline-none px-2 py-1 md:text-lg rounded-md" onChange={(e)=>setTask(e.target.value)}/>
